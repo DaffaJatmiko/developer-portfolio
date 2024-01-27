@@ -1,9 +1,12 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/resume.pdf';
+import potoKel29 from '../assets/png/potoKel29.jpg';
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
-}
+  name: 'KELOMPOK KKN PPM 29 SIDOWARAS',
+  logo: 'KELOMPOK 29',
+  title: 'Website Program Kerja ',
+  desciption:
+    'Selamat datang di halaman utama Kelompok KKN 29! Kami adalah kelompok mahasiswa KKN yang terdiri dari berbagai program studi. Meskipun beragam latar belakang pendidikan, kami bersatu dalam semangat untuk memberikan kontribusi positif kepada masyarakat sekitar. Di sini, kami berbagi informasi terkini tentang program kerja dan kegiatan kami. Terima kasih atas kunjungan Anda! ',
+  image: potoKel29,
+  resumePdf: resume,
+};

@@ -1,0 +1,61 @@
+/* DetailProject.css */
+.detailContainer {
+  display: grid;
+  grid-template-rows: repeat(
+    5,
+    auto
+  ); /* Mengubah fr menjadi auto untuk mengikuti konten */
+  gap: 10px;
+  padding: 10px;
+  background-color: #242323;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.detailContainer h2 {
+  color: #ff69b4;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.detailContainer p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Menambahkan margin-bottom untuk memberi jarak antar konten */
+.detailContainer > *:not(h2):not(p) {
+  margin-bottom: 10px;
+}
+
+.backButton {
+  background-color: white; /* Mengubah warna background menjadi putih */
+  color: #242323; /* Mengubah warna teks menjadi sesuai kebutuhan */
+  border: 1px solid white; /* Menambahkan border agar tombol terlihat */
+}
+
+.backButton:hover {
+  background-color: #f0f0f0; /* Mengubah warna background saat tombol dihover */
+}
+
+/* DetailProject.css */
+@media (max-width: 600px) {
+  .detailContainer {
+    padding: 5px; /* Mengurangi padding pada perangkat mobile */
+  }
+
+  .detailContainer h2 {
+    font-size: 1.8rem; /* Mengurangi ukuran font pada judul */
+    margin-bottom: 3px; /* Mengurangi margin pada judul */
+  }
+
+  .detailContainer p {
+    font-size: 1.1rem; /* Mengurangi ukuran font pada paragraf */
+    margin-bottom: 15px; /* Mengurangi margin pada paragraf */
+  }
+
+  .dokumentasiImage {
+    height: 200px; /* Mengatur tinggi gambar pada perangkat mobile */
+  }
+}

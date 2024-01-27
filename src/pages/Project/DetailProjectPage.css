@@ -1,0 +1,21 @@
+/* DetailProjectPage.css */
+.detail-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
